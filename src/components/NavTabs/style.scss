@@ -1,0 +1,61 @@
+.guanbi-icon {
+    font-size: 12px !important;
+    cursor: pointer;
+    color: #333;
+    transform: scale(0.7);
+    display: inline-block;
+    float: right;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 3px;
+    width: 20px;
+}
+
+.nav-tab {
+    text-align: center;
+    border-radius: 3px;
+    line-height: 32px;
+    height: 80%;
+    width: 100%;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    a {
+        color: #333;
+        display: block;
+        width: 100%;
+        padding-right: 20px;
+        float: left;
+        font-size: 13px;
+        text-align: center;
+        &:link, &:hover, &:visited, &:active {
+            text-decoration: none;
+        } 
+    }
+}
+
+.nav-tab.active {
+    background-color: #EF7E09;
+    a {
+        color: #fff;
+    }
+    .guanbi-icon {
+        color: #fff;
+    }
+}
+
+// 显示更多的地方
+.more-tab {
+    margin-left: auto;
+    margin-right: 20px;
+    width: 50px;
+}
+
+.hidden-tab {
+    width: 200px;
+    &:hover {
+        @extend .nav-tab.active
+    }
+}

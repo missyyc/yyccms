@@ -1,0 +1,74 @@
+@import "../../theme-color";
+.login-container{
+
+  background-image: url("../../assets/img/login-bg.png");
+  background-repeat: no-repeat;
+  background-size:100% 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  form{
+    padding:36px;
+    padding-top: 26px;
+  }
+
+  input{
+    padding-left: 38px !important;
+  }
+
+  .form {
+    position: absolute;
+    top: 40%;
+    border-radius: 4px;
+    margin-top: -90px;
+    width: 330px;
+    height: 420px;
+    background: white;
+    box-shadow: 0 0 40px rgba(228,123,15,.8);
+
+
+
+    button {
+      width: 100%;
+    }
+
+    p {
+      color: rgb(204, 204, 204);
+      text-align: center;
+      margin-top: 16px;
+
+      span {
+        &:first-child {
+          margin-right: 16px;
+        }
+      }
+    }
+  }
+
+  .logo {
+    width: 100%;
+    text-align: center;
+    height: 90px;
+    cursor: pointer;
+    border-bottom: 1px solid $borderActiveColor;
+
+    img {
+      width:auto;
+      height:50px;
+    }
+
+    span {
+      vertical-align: text-bottom;
+      font-size: 16px;
+      text-transform: uppercase;
+      display: inline-block;
+    }
+  }
+
+  .ant-spin-container,
+  .ant-spin-nested-loading {
+    height: 100%;
+  }
+
+}

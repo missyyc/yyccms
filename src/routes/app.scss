@@ -1,0 +1,159 @@
+@import '../theme-color';
+
+.app{
+  height: 100%;
+}
+
+.ant-menu-item,.ant-menu-submenu{
+    span{
+        span{
+            padding-left: 25px;
+        }
+        img{
+            width:20px;
+            height: 20px;
+        }
+    }
+}
+.ant-menu-submenu-title,.ant-menu-item{
+    span{
+        display: flex;
+        align-items: center;
+        .hgobox{
+          width: 20px;
+        }
+    }
+}
+.ant-layout-sider-children{
+    >.ant-menu{
+        >.ant-menu-item:first-child{
+            padding-left: 0px !important;
+            background-color: $logoBg;
+            height:60px;
+        }
+    }
+}
+.ant-menu-dark .ant-menu-item-disabled, .ant-menu-dark .ant-menu-submenu-disabled, .ant-menu-dark .ant-menu-item-disabled > a, .ant-menu-dark .ant-menu-submenu-disabled > a {
+    opacity: 1;
+    color: rgba(255, 255, 255, 0.35) !important;
+}
+
+/*
+logo
+**/
+.logo{
+    height: 60px;
+    width:200px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width:70%;
+        height: auto;
+    }
+
+}
+/*
+缩进后的logo
+**/
+.logo1{
+    width:64px;
+    height: 60px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width:50%;
+        height: auto;
+    }
+}
+/*
+菜单箭头
+**/
+.ant-menu-submenu-inline > .ant-menu-submenu-title:after {
+    content: "\E61D";
+    right: 16px;
+    top: 0;
+    display: inline-block;
+    font-size: 12px;
+    font-size: 8px \9;
+    -webkit-transform: scale(0.66666667) rotate(0deg);
+    -ms-transform: scale(0.66666667) rotate(0deg);
+    transform: scale(0.66666667) rotate(-90deg);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=1, M12=0, M21=0, M22=1)";
+    zoom: 1.8;
+}
+/*
+缩进
+**/
+.indent{
+  margin-left: 20px;
+}
+/*
+内容区域
+**/
+.ant-layout-header {
+    background: #404040;
+    padding: 0 50px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 20px;
+    img{
+        margin-left: 20px;
+        width:20px;
+        height: 20px;
+    }
+}
+/**
+头像
+*/
+.avatar{
+    img{
+        border-radius: 100%;
+        width:40px;
+        height: 40px;
+    }
+    &.large{
+        img{
+            border-radius: 100%;
+            width:100px;
+            height: 100px;
+        }
+    }
+}
+/**
+个人中心、设置、退出登录
+*/
+.personInfo{
+    width:140px;
+}
+.ant-tooltip-inner{
+    >div{
+        padding-left: 10px;
+        height:90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        >a{
+            color:rgb(136,136,136);
+        }
+    }
+    background: white;
+    color:black;
+}
+.bg-white{
+    background-color: white;
+}
+
+.margin-top-15{
+    background: #fff;
+}
+
+.start-start-center{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

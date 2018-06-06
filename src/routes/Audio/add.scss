@@ -1,0 +1,285 @@
+
+  .ant-modal-footer{
+    text-align: center;
+    border-top: 0;
+    padding-bottom: 30px;
+  }
+
+  .ant-modal-header{
+    background: #F4AF2E;
+    div {
+      font-size: 16px;
+      color: rgb(255, 255, 255);
+    }
+  }
+
+  .ant-modal-close-x {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  form textarea.ant-input{
+    height: 135px;
+    resize: none;
+  }
+
+  .manager_detail{
+    .ant-col-12,.ant-col-24{
+      font-size: 16px;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      border-bottom: 1px solid #eee;
+    }
+    .roles{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      //span{
+      //  //display: inline-block;
+      //}
+    }
+    .head_col{
+      text-align: center;
+      border-bottom: 1px solid transparent;
+      .head{
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        background: red;
+        border-radius: 50%;
+        img{
+          height: 100px;
+          line-height: 100px;
+          text-align: center;
+        }
+      }
+    }
+  }
+.manager{
+  .clear{
+    clear: both;
+  }
+}
+
+
+.Audio_add{
+  .edit_upload{
+    >span{
+      width: 70px;
+      height: 70px;
+      display: inline-block;
+      margin-left: 20px;
+      .ant-upload{
+        width: 100%;
+        height: 100%;
+        >span{
+          width: 100%;
+          height: 100%;
+          display: inline-block;
+          button{
+            margin-left: 0;
+            width:100%;
+            height: 100%;
+            vertical-align: bottom;
+            text-align: center;
+            padding: 0;
+            border-style: dashed;
+          }
+        }
+      }
+    }
+  }
+}
+
+.roleshead{
+  .redline{
+    font-size: 16px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #eee;
+    &::after{
+      display: block;
+      content: '';
+      width: 70px;
+      height: 2px;
+      background: red;
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+    }
+  }
+
+  .table {
+    text-align: center;
+    font-size: 16px;
+    thead {
+      th {
+        text-align: center;
+        color: #595757;
+      }
+    }
+    tbody {
+      tr {
+        td {
+          text-align: center;
+          a {
+            color: #F4AF2E;
+            &:hover, &:active {
+              //color: #e8a764;
+              opacity: .5;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.tagrow{
+  .ant-col-6{
+    padding: 8px;
+    .tag{
+      width: 100%;
+      text-align: center;
+      .ant-tag-text{
+        display: inline-block;
+        width: 80%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+      .anticon-cross{
+        vertical-align: top;
+      }
+      .anticon-cross::before{
+        display: inline-block;
+        line-height: 20px;
+      }
+    }
+  }
+}
+.row-div{
+  position: relative;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+  &::after{
+    content: '';
+    display: block;
+    position: absolute;
+    left:0;
+    bottom: -3px;
+    background: red;
+    width: 70px;
+    height: 3px;
+  }
+}
+
+
+  .Audio_detail{
+    .roleprimission{
+      margin-left: 20px;
+    }
+    .ant-col-24{
+      padding: 8px 0;
+    }
+
+    .roleinfo{
+      border-bottom: 1px solid transparent;
+      span{
+        display: inline-block;
+      }
+      .label{
+        width: 180px;
+      }
+    }
+
+    .rolehead{
+      font-size: 16px;
+      padding-bottom: 13px;
+      padding-top: 13px;
+      border-bottom: 1px solid #eee;
+      &::after{
+        content: "";
+        display: block;
+        position: absolute;
+        left:0;
+        bottom: -2px;
+        width: 70px;
+        height: 2px;
+        background: red;
+      }
+    }
+
+  }
+  .assign{
+    .roleprimission{
+      margin-left: 20px;
+    }
+    .ant-col-24{
+      padding: 8px 0;
+    }
+
+    .roleinfo{
+      padding-bottom: 13px;
+      padding-top:13px;
+      border-bottom: 1px solid transparent;
+      span{
+        display: inline-block;
+      }
+      .label{
+        width: 180px;
+      }
+      .selectedRow{
+        width: 150px;
+        margin-left: 20px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+    }
+
+    .distributor{
+      margin-bottom: 10px;
+    }
+    .rolehead{
+      font-size: 16px;
+      padding-bottom: 13px;
+      padding-top: 13px;
+      border-bottom: 1px solid #eee;
+      &::after{
+        content: "";
+        display: block;
+        position: absolute;
+        left:0;
+        bottom: -2px;
+        width: 70px;
+        height: 2px;
+        background: red;
+      }
+    }
+
+  }
+
+  .contract_head{
+    .ant-form-item{
+      float: right;
+      margin-left: 10px;
+      button{
+        width: 80px;
+      }
+    }
+    .clear{
+      clear: both;
+    }
+    .searchverified{
+      width: 150px;
+    }
+  }
+
+  .assigncontract{
+    .ant-table-thead{
+      .ant-checkbox-wrapper{
+        display: none;
+      }
+    }
+  }

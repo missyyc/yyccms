@@ -1,0 +1,37 @@
+.ant-upload-list-picture{
+  .ant-upload-list-item-info span {
+    a {
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0  ;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .ant-upload-list-item-name{
+      display: none;
+    }
+  }
+  .ant-upload-list-item.ant-upload-list-item-done,.ant-upload-list-item.ant-upload-list-item-uploading{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 0;
+    i {
+      display: none;
+    }
+  }
+  .ant-upload-list-item-uploading{
+    .ant-upload-list-item-progress{
+      margin-left: 10%;
+      padding: 0;
+      width: 80%;
+      bottom: 50%;
+      .ant-progress-status-normal .ant-progress-outer .ant-progress-inner .ant-progress-bg{
+        height: 5px;
+      }
+    }
+  }
+}
